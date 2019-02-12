@@ -15,7 +15,8 @@ export default (state = initialState, action) => {
     case GET_TEMPLATES_SUCCESS: {
       return {
         ...state,
-        list: action.payload
+        list: action.payload,
+        error: null
       };
     }
     case GET_TEMPLATES_ERROR: {
