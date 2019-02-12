@@ -1,0 +1,42 @@
+{
+  "name": "react-house-map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aphrodite": "^2.2.2",
+    "axios": "^0.18.0",
+    "node-sass": "^4.11.0",
+    "object-fit": "^0.4.3",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.4",
+    "react-swipe": "^6.0.4",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-saga": "^1.0.1",
+    "swipe-js-iso": "^2.1.5",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "eslint --fix src/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,13 @@
+@import '../../../styles/scss/variables.scss';
+
+.children .component {
+    width: 100%;
+
+    @media #{$small} {
+    width: 100%;
+    };
+
+    @media #{$medium} {
+    width: 100%;
+    };
+}
