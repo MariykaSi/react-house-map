@@ -29,7 +29,7 @@ class Header extends Component {
   }
 }
 
-const mapStateToProps = state => state;
+const mapStateToProps = ({ templates }) => ({ templates });
 const mapDispatchToProps = {
   changeTemplate
 };
